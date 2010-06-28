@@ -1,0 +1,229 @@
+body {
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font-size: 12pt;
+	margin: 0;
+	background: #12306e url(../images/page_texture.png) repeat;
+}
+
+p {
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 18pt;
+	color: #275fc1;
+	margin-top: 0;
+	margin-bottom: 0.5em;
+}
+
+h2 {
+	font-size: 14pt;
+	color: #275fc1;
+	margin-top: 0;
+	margin-bottom: 0.5em;
+}
+
+h3 {
+	font-size: 12pt;
+	text-decoration: underline;
+	margin-bottom: 0.5em;
+}
+
+li {
+	font-size: 10pt;
+}
+
+img {
+	border: none;
+}
+
+#header {
+	position: relative;
+	min-width: 946px;
+	background: url(../images/header_bkgrd_tile.jpg) repeat-x;
+}
+
+#header_logo {
+	width: 827px;
+	margin: auto;
+}
+
+#nav_bar {
+	background: url(../images/nav_bar_bkgr_tile.jpg) repeat-x;
+}
+
+#nav_bar_content {
+	font-size: 13pt;
+	font-weight: bold;
+	text-align: center;
+	height: 24px;
+	color: #444;
+}
+
+/* @group Logo section */
+
+#logo_container {
+	position: relative;
+	width: 100%;
+	height: 200px;
+	margin: auto;
+	padding: 25px 0em;
+}
+
+#logo_anchor {
+	width: 780px;
+	margin: auto;
+}
+
+#atlodc_logo {
+	float: left;
+	width: 441px;
+	height: 200px;
+}
+
+#slogan {
+	margin-top: 70px;
+	float: right;
+}
+
+/* @end */
+
+#welcome {
+	font-size: 14pt;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 1em;
+	padding: .5em 0;
+	border-top: 3px solid #275fc1;
+	border-bottom: 3px solid #275fc1;
+	-webkit-text-size-adjust: none;
+}
+
+#welcome a {
+	text-decoration: none;
+}
+
+.phone_number {
+	color: blue;
+}
+
+#page_wrapper {
+	width: 910px;
+	margin: auto;
+	padding: 0 16px 10px 16px;
+	background-color: white;
+	border-left: 2px solid #aaa;
+	border-right: 2px solid #aaa;
+}
+
+.phone_number {
+	color: blue;
+}
+
+.wrap_image {
+	margin-right: 315px;
+}
+
+/* @group Image Gallery */
+
+.image_gallery {
+	clear: both;
+}
+
+.gallery_2col {
+	margin-top: 0.5em;
+	width: 446px;
+	float: left;
+	overflow: hidden;
+}
+
+.gallery_2col_gutter {
+	margin-right: 18px;
+}
+
+.gallery_3col {
+	margin-top: 0.5em;
+	width: 293px;
+	float: left;
+	overflow: hidden;
+}
+
+.gallery_3col_gutter {
+	margin-right: 15px;
+}
+
+.gallery_5col {
+	margin-top: 0.5em;
+	width: 174px;
+	float: left;
+	overflow: hidden;
+}
+
+.gallery_5col_gutter {
+	margin-right: 8px;
+}
+
+.gallery_image img {
+	border: 1px solid black;
+}
+
+.image_caption {
+	font-size: 10pt;
+	margin: 0.5em 0;
+}
+
+#large_screen {
+	width: 300px;
+	height: 292px;
+	margin-left: 1em;
+	border: 1px solid black;
+	float: right;
+}
+
+.separator {
+	clear: both;
+}
+
+.line_divider {
+	margin: 0.75em 0em;
+	border-top: 1px solid grey;
+}
+
+/* @end */
+
+#atlsrch_plug {
+	position: relative;
+	width: 750px;
+	margin: 0 auto;
+}
+
+#footer {
+	color: white;
+	width: 785px;
+	font-size: 10pt;
+	text-align: center;
+	margin: 0.75em auto;
+	padding-top: 0.25em;
+	border-top: 1px solid #eee;
+}
+
+#footer {
+	color: #ddd;
+	font-size: 9pt;
+	text-align: center;
+	width: 946px;
+	margin: 1em auto;
+	padding-top: 0.75em;
+	border-top: 1px solid #aaa;
+	clear: both;
+}
+
+#footer a {
+	color: #ddd;
+	text-decoration: none;
+}
+
+#footer a:hover {
+	text-decoration: underline;
+}
